@@ -40,7 +40,7 @@ def main():
     # print(investment)
 
     # Step 4
-    # Send data to a file a csv file
+    # Send data to a csv file
     investment.to_csv(r'C:\Users\Elton\Documents\Python_Project\investment.csv')
 
 
