@@ -216,11 +216,11 @@ Investment simulation result summary
 
 ![Alt text](https://github.com/egrodrigues2014/Python_Project/blob/cecb1308b2db05246bee10ea510313d16f2b9b9c/images/Final%20Project%20images%20to%20readme.md/Step6.PNG?raw=true)
 
-Graphic: Investment result over the years
+Graph: Investment result over the years
 
 ![Alt text](https://github.com/egrodrigues2014/Python_Project/blob/cecb1308b2db05246bee10ea510313d16f2b9b9c/images/Final%20Project%20images%20to%20readme.md/Step7.PNG?raw=true)
 
-Graphic: Interest amount evolution over the years
+Graph: Interest amount evolution over the years
 
 ![Alt text](https://github.com/egrodrigues2014/Python_Project/blob/cecb1308b2db05246bee10ea510313d16f2b9b9c/images/Final%20Project%20images%20to%20readme.md/Step8.PNG?raw=true)
 
