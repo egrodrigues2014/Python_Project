@@ -41,7 +41,7 @@ def main():
 
     # Step 4
     # Send data to a csv file
-    investment.to_csv(r'C:\Users\Elton\Documents\Python_Project\investment.csv')
+    investment.to_csv(r'investment.csv')
 
 
     # Step 5
@@ -80,9 +80,11 @@ def main():
 
     # Line graphic
     line_graph(investment, investment.index, 'Final_Amount', 'Monthly Profit')
+    print("Openning Monthly Profit graph ... ")
 
     # Scatter graphic
     scatter_graph(investment, 'Final_Amount', 'Interest_Amount', 'Monthly Interest Amount')
+    print("Openning Monthly Interest Amount graph ... ")
 
 
 def check_command_line_ags():

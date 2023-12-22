@@ -1,12 +1,17 @@
-from Project import get_float_from_input, get_int_from_input, populate_df
-import pytest
-import pandas as pd
-import datatest as dt
+from plotly.subplots import make_subplots
+import plotly.graph_objects as go
 
-b = populate_df(1,1000,100,0.01)
-print(b)
+fig = make_subplots(rows=1, cols=2)
 
-a = {'Opening_Balance' : float(1000), 'Monthly_Investment' : float(100), 'Total_Month_Investment_Amount' : float(1100), 'Interest_Amount' : float(11), 'Final_Amount' : float(1111)}
-print(a)
+fig.add_trace(
+    go.Scatter(x=[1, 2, 3], y=[4, 5, 6]),
+    row=1, col=1
+)
 
-print(a ==b)
+fig.add_trace(
+    go.Scatter(x=[20, 30, 40], y=[50, 60, 70]),
+    row=1, col=2
+)
+
+fig.update_layout(height=600, width=800, title_text="Side By Side Subplots")
+fig.show()
