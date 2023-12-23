@@ -1,9 +1,9 @@
 
 # FINAL PROJECT: INVESTMENT SIMULATOR
-## Video Demo:  <URL HERE>
+## Video Demo:  https://youtu.be/sb11eBqmWcg
 ## Description 
 
-This was my final project for conclude the CS50’s Introduction to Programming with Python.
+This was my final project to complete the CS50 Introduction to Programming with Python.
 
 INVESTMENT SIMULATOR is a python based application where the user provides inputs values for the simulation (e.g: initial and monthly investment, annual profitability expected and the period in years) and the application shows how much money they will have in the period defined.
 
@@ -35,7 +35,7 @@ The user has to provide exactly one command-line argument, the name (or path) of
         sys.exit(1)
 ```
 
-To store data in .csv file, it was used a method 'to_csv' of pandas library:
+To store data in .csv file, it was used a pandas's method called 'to_csv' :
 
 ```python
 investment.to_csv(r'C:\Users\Elton\Documents\Python_Project\investment.csv')
